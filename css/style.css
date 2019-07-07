@@ -1,0 +1,25 @@
+.cabecera-pie{
+    background-color: #780426!important;
+    color: white;
+}
+
+footer{
+    color: white;
+    padding: 2px;
+}
+
+footer a:link {
+    color: white;
+}
+      
+footer a:visited{
+    color: white;
+}
+      
+footer a:hover{
+    color: white;
+}
+      
+footer a:active{
+    color: white;
+}
