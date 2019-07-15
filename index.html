@@ -40,10 +40,10 @@
                         <a class="nav-link active" href="#menu">Menú</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#horario-ubicacion">Horario</a>
+                        <a class="nav-link active" href="#horario">Horario</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#horario-ubicacion">Ubicación</a>
+                        <a class="nav-link active" href="#ubicacion">Ubicación</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#" id="facturacionLink" data-toggle="modal"
@@ -70,24 +70,26 @@
     <main>
 
         <section id="slide">
-            <div id="carruselImgenes" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="d-block w-100" src="img/logo_grande.png" alt="First slide">
+            <div class="container">
+                <div id="carruselImgenes" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="img/logo_grande.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/proximamente.png" alt="Second slide">
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="img/proximamente.png" alt="Second slide">
-                    </div>
+                    <a class="carousel-control-prev" href="#carruselImgenes" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previo</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carruselImgenes" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
                 </div>
-                <a class="carousel-control-prev" href="#carruselImgenes" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previo</span>
-                </a>
-                <a class="carousel-control-next" href="#carruselImgenes" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Siguiente</span>
-                </a>
-            </div>
+                <div class="container"></div>
         </section>
 
         <section id="menu">
@@ -177,62 +179,67 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                        <hr>
-                        <h2><i class="far fa-clock"></i> Horario</h2>
-                        <hr>
-                        <div class="row">
-                            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"><strong>Lunes</strong></div>
-                            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">XX:XX - XX:XX</div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"><strong>Martes</strong></div>
-                            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">XX:XX - XX:XX</div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"><strong>Miercoles</strong></div>
-                            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">XX:XX - XX:XX</div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"><strong>Jueves</strong></div>
-                            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">XX:XX - XX:XX</div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"><strong>Viernes</strong></div>
-                            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">XX:XX - XX:XX</div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"><strong>Sabado</strong></div>
-                            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">XX:XX - XX:XX</div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"><strong>Domingo</strong></div>
-                            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">XX:XX - XX:XX</div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"><strong>Domingo</strong></div>
-                            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">XX:XX - XX:XX</div>
-                        </div>
+                        <section id="horario">
+                            <hr>
+                            <h2><i class="far fa-clock"></i> Horario</h2>
+                            <hr>
+                            <div class="row">
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"><strong>Lunes</strong></div>
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">XX:XX - XX:XX</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"><strong>Martes</strong></div>
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">XX:XX - XX:XX</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"><strong>Miercoles</strong></div>
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">XX:XX - XX:XX</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"><strong>Jueves</strong></div>
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">XX:XX - XX:XX</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"><strong>Viernes</strong></div>
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">XX:XX - XX:XX</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"><strong>Sabado</strong></div>
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">XX:XX - XX:XX</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"><strong>Domingo</strong></div>
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">XX:XX - XX:XX</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"><strong>Domingo</strong></div>
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">XX:XX - XX:XX</div>
+                            </div>
+                        </section>
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                        <hr>
-                        <h2><i class="fas fa-map-marked-alt"></i> Ubicación</h2>
-                        <hr>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.9110574709875!2d-99.08764738459156!3d19.416248546233334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fc169099e30b%3A0xb03a85395defaa09!2sCalle+Econom%C3%ADa+49%2C+4+%C3%81rboles%2C+15730+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses-419!2smx!4v1562530814770!5m2!1ses-419!2smx"
-                                    width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <section id="ubicacion">
+                            <hr>
+                            <h2><i class="fas fa-map-marked-alt"></i> Ubicación</h2>
+                            <hr>
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.9110574709875!2d-99.08764738459156!3d19.416248546233334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fc169099e30b%3A0xb03a85395defaa09!2sCalle+Econom%C3%ADa+49%2C+4+%C3%81rboles%2C+15730+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses-419!2smx!4v1562530814770!5m2!1ses-419!2smx"
+                                        width="100%" height="400" frameborder="0" style="border:0"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                    <address>
+                                        Calle Economía #49<br />
+                                        Colonia 4 Árboles<br />
+                                        Alcaldía Venustiano Carranza<br />
+                                        Ciudad de México<br />
+                                        C.P. 15730
+                                    </address>
+                                </div>
                             </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                <address>
-                                    Calle Economía #49<br />
-                                    Colonia 4 Árboles<br />
-                                    Alcaldía Venustiano Carranza<br />
-                                    Ciudad de México<br />
-                                    C.P. 15730
-                                </address>
-                            </div>
-                        </div>
+                        </section>
                     </div>
                 </div>
             </div>
