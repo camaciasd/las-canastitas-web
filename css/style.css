@@ -1,21 +1,25 @@
 body{
-    color: #780426;
+    color: #ee871d;
 }
 
 body a:link {
-    color: #780426;
+    color: #a0191b;
 }
       
 body a:visited{
-    color: #780426;
+    color: #a0191b;
 }
       
 body a:hover{
-    color: #780426;
+    color: #a0191b;
 }
       
 body a:active{
-    color: #780426;
+    color: #a0191b;
+}
+
+h2{
+    color: #a0191b;
 }
 
 footer{
@@ -40,6 +44,6 @@ footer a:active{
 }
 
 .cabecera-pie{
-    background-color: #780426!important;
+    background-color: #d04920!important;
     color: white;
 }
