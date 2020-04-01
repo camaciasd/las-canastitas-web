@@ -1,5 +1,6 @@
 body{
     color: #ee871d;
+    background-color: black!important;
 }
 
 body a:link {
@@ -22,9 +23,18 @@ h2{
     color: #a0191b;
 }
 
+header{
+    color: white;
+    padding: 5px;
+    border-style: solid;
+    border-color: black black #ee871d black;
+}
+
 footer{
     color: white;
     padding: 5px;
+    border-style: solid;
+    border-color: #ee871d black black black;
 }
 
 footer a:link {
@@ -44,6 +54,10 @@ footer a:active{
 }
 
 .cabecera-pie{
-    background-color: #d04920!important;
-    color: white;
+    background-color: black!important;
+    color: a0191b;
+}
+
+div .modal-body{
+    background-color: rgb(54, 54, 54)!important;
 }
