@@ -61,3 +61,16 @@ footer a:active{
 div .modal-body{
     background-color: rgb(54, 54, 54)!important;
 }
+
+table{
+    text-align: center;
+    color:#ee871d!important;
+}
+
+hr{
+    border-top: 1px solid #ee871d;
+}
+
+.nav-pills .nav-link.active{
+    background-color: #a0191b!important;
+}

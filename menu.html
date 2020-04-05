@@ -32,7 +32,7 @@
             <div class="collapse navbar-collapse" id="barra">
 
                 <a class="navbar-brand mr-0 mr-md-2" href="./index.html">
-                    <img src="img/logo.png" alt="Las Canastitas" width="50%" height="50%">
+                    <img src="./img/logo.png" alt="Las Canastitas" width="50%" height="50%">
                 </a>
 
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -70,85 +70,631 @@
                 <hr>
                 <h2><i class="fas fa-utensils"></i> Menú</h2>
                 <hr>
-                <p>Próximamente...</p>
-                <!-- 
-                <div class="card-deck">
-                    <div class="card">
-                        <img class="card-img-top" src="img/wings.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title"><i class="fas fa-drumstick-bite"></i> Alitas</h5>
-                            <p class="card-text">Ven y disfruta nuestra variedad de sabores de alitas, perfectamente
-                                doradas
-                                y sazonadas.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a href="#" id="alitasLink" data-toggle="modal" data-target="#alitasModal">Ver alitas</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="img/hamburger.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title"><i class="fas fa-hamburger"></i> Hamburguesas</h5>
-                            <p class="card-text">Prueba nuestras deliciosas hamburguesas, todas servidas en pan doradito
-                                y
-                                con una textura suave que les da un exquisito sabor.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a href="#" id="hamburguesasLink" data-toggle="modal" data-target="#hamburguesasModal">Ver
-                                hamburguesas</a>
+
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
+                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
+                            aria-orientation="vertical">
+                            <a class="nav-link active" id="v-pills-alas-tab" data-toggle="pill" href="#v-pills-alas"
+                                role="tab" aria-controls="v-pills-alas" aria-selected="true"><i class="fas fa-drumstick-bite"></i> Alitas y Boneless</a>
+                            <a class="nav-link" id="v-pills-hamburguesas-tab" data-toggle="pill" href="#v-pills-hamburguesas"
+                                role="tab" aria-controls="v-pills-hamburguesas" aria-selected="false"><i class="fas fa-hamburger"></i> Hamburguesas</a>
+                            <a class="nav-link" id="v-pills-hotdogs-tab" data-toggle="pill" href="#v-pills-hotdogs"
+                                role="tab" aria-controls="v-pills-hotdogs" aria-selected="false"><i class="fas fa-hotdog"></i> Hot-Dogs</a>
+                            <a class="nav-link" id="v-pills-papas-tab" data-toggle="pill" href="#v-pills-papas"
+                                role="tab" aria-controls="v-pills-papas" aria-selected="false"><i class="fas fa-cookie"></i> Botanas</a>
                         </div>
                     </div>
-                    <div class="card">
-                        <img class="card-img-top" src="img/papas.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title"><i class="fas fa-cookie"></i> Botanas</h5>
-                            <p class="card-text">Nada mejor que acompañar tu comida con unas ricas papas bien doraditas
-                                y
-                                sazonadas para compartir con los amigos.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a href="#" id="botanasLink" data-toggle="modal" data-target="#botanasModal">Ver botanas</a>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="v-pills-alas" role="tabpanel"
+                                aria-labelledby="v-pills-alas-tab">
+                                <hr>
+                                <h3><i class="fas fa-drumstick-bite"></i> Alitas y Boneless</h3>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                        <p>Ven y disfruta nuestra variedad de sabores de alitas y boneless, perfectamente doradas y sazonadas.</p>                                       
+                                        <img src="./img/comida/alitas.jpg" class="rounded float-left" alt="..." width="50%" height="40%">
+                                        <img src="./img/comida/boneless.jpg" class="rounded float-right" alt="..." width="50%" height="40%">
+                                        <p>Tenemos 8 sabores a elegir para marinar nuestras alas y boneless:</p>
+                                        <table class="table table-borderless">
+                                            <tbody>
+                                                <tr>
+                                                    <th>CLÁSICAS</th>
+                                                    <th>BBQ</th>
+                                                </tr>
+                                                <tr>
+                                                    <th>CAJÚN</th>
+                                                    <th>BBQ HABANERO</th>
+                                                </tr>
+                                                <tr>
+                                                    <th>TERIYAKI</th>
+                                                    <th>MANGO HABANERO</th>
+                                                </tr>
+                                                <tr>
+                                                    <th>TAMARINDO</th>
+                                                    <th>ORIGINAL HOT</th>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <p>Y 4 aderezos para que las acompañes:</p>
+                                        <table class="table table-borderless">
+                                            <tbody>
+                                                <tr>
+                                                    <th>CHIPOTLE</th>
+                                                    <th>HONEY MUSTARD</th>
+                                                </tr>
+                                                <tr>
+                                                    <th>BLUE CHEESE</th>
+                                                    <th>RANCH</th>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                <h5>Paquete de 6 Piezas</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                                                <p>6 piezas bien doradas y sazonadas. Un sabor y un aderezo a elegir</p>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ 70.00 MXN</strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                <h5>Paquete de 12 Piezas</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                                                <p>12 piezas bien doradas y sazonadas. Dos sabores y dos aderezos a elegir</p>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ 140.00 MXN</strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                <h5>Paquete de 25 Piezas</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                                                <p>25 piezas bien doradas y sazonadas. Cuatro sabores y cuatro aderezos a elegir</p>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ 275.00 MXN</strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                <h5>Paquete de 50 Piezas</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                                                <p>50 piezas bien doradas y sazonadas. Cuatro sabores y cuatro aderezos a elegir</p>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ 525.00 MXN</strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                <h5>Paquete de 70 Piezas</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                                                <p>70 piezas bien doradas y sazonadas. Cuatro sabores y cuatro aderezos a elegir</p>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ 720.00 MXN</strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                <h5>Paquete de 100 Piezas</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                                                <p>100 piezas bien doradas y sazonadas. Cuatro sabores y cuatro aderezos a elegir</p>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ 950.00 MXN</strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-hamburguesas" role="tabpanel"
+                                aria-labelledby="v-pills-hamburguesas-tab">
+                                <hr>
+                                <h3><i class="fas fa-hamburger"></i> Hamburguesas</h3>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                        <p>Prueba nuestras deliciosas hamburguesas, todas servidas en pan doradito y con una textura suave que les da un exquisito sabor.</p>
+                                        <p>Todas nuestras hamburguesas son preparadas con verdura fresca y puede elegir entre nuestras 3 diferentes carnes la que mas le guste:</p>
+                                        <table class="table table-borderless">
+                                            <tbody>
+                                                <tr>
+                                                    <th>RES</th>
+                                                    <th>POLLO</th>
+                                                    <th>Arrachera</th>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                        <img src="./img/logo.png" alt="Las Canastitas">
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                <h5>Sencilla</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                                                <p>Hamburguesa con Jamón, Queso Amarillo, Quesillo, Lechuga Romana, Jitomate, Chile y Cebolla. Carne a elegir entre Res, Pollo o Arrachera.</p>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ 45.00 MXN</strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                        <img src="./img/comida/hTocino.jpg" alt="Las Canastitas"  width="100%" height="100%">
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                <h5>Tocino</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                                                <p>Hamburguesa con Jamón, Tocino, Queso Amarillo, Quesillo, Lechuga , Jitomate, Chile y Cebolla. Carne a elegir entre Res, Pollo o Arrachera.</p>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ 50.00 MXN</strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                        <img src="./img/comida/hHawaiana.jpg" alt="Las Canastitas"  width="100%" height="100%">
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                <h5>Hawaiana</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                                                <p>Hamburguesa con Jamón, Tocino, Queso Amarillo, Quesillo, Lechuga Romana, Jitomate, Chile, Cebolla y Piña. Carne a elegir entre Res, Pollo o Arrachera.</p>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ 60.00 MXN</strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                        <img src="././img/logo.png" alt="Las Canastitas">
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                <h5>3 Quesos</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                                                <p>Hamburguesa con Jamón, Tocino, Queso Amarillo, Quesillo, Queso Manchego, Lechuga Romana, Jitomate, Chile y Cebolla. Carne a elegir entre Res, Pollo o Arrachera.</p>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ 60.00 MXN</strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                        <img src="./img/comida/hGuacamole.jpg" alt="Las Canastitas"  width="100%" height="100%">
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                <h5>Guacamole</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                                                <p>Hamburguesa con Jamón, Tocino, Queso Amarillo, Quesillo, Lechuga Romana, Jitomate, Chile, Cebolla y Guacamole recién hecho. Carne a elegir entre Res, Pollo o Arrachera.</p>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ 65.00 MXN</strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                        <img src="./img/logo.png" alt="Las Canastitas">
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                <h5>BBQ</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                                                <p>Hamburguesa con Jamón, Tocino, Queso Amarillo, Quesillo, Lechuga Romana, Jitomate, Chile, Cebolla, Aros de Cebolla y Salsa BBQ. Carne a elegir entre Res, Pollo o Arrachera.</p>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ 65.00 MXN</strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                        <img src="./img/logo.png" alt="Las Canastitas">
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                <h5>Jalapeño</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                                                <p>Hamburguesa con Jamón, Tocino, Queso Amarillo, Quesillo, Lechuga Romana, Jitomate, Cebolla y Carne rellena de Jalapeño. Carne a elegir entre Res y Arrachera.</p>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ 70.00 MXN</strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                        <img src="./img/logo.png" alt="Las Canastitas">
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                <h5>Habanero</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                                                <p>Hamburguesa con Jamón, Tocino, Queso Amarillo, Quesillo, Lechuga Romana, Jitomate, Chile, Cebolla y Carne rellena de Habanero. Carne a elegir entre Res y Arrachera.</p>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ 70.00 MXN</strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                        <img src="./img/logo.png" alt="Las Canastitas">
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                <h5>Doble Carne</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                                                <p>Hamburguesa con Jamón, Tocino, Queso Amarillo, Quesillo, Lechuga Romana, Jitomate, Chile, Cebolla y Dos porciones de carne. Carne a elegir entre Res, Pollo o Arrachera.</p>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ 75.00 MXN</strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                        <img src="./img/comida/hRellena.jpg" alt="Las Canastitas" width="100%" height="100%">
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                <h5>Rellena de Queso</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                                                <p>Hamburguesa con Jamón, Tocino, Queso Amarillo, Quesillo, Lechuga Romana, Jitomate, Chile, Cebolla y Carne rellena de Queso Manchego. Carne a elegir entre Res y Arrachera.</p>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ 80.00 MXN</strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-hotdogs" role="tabpanel"
+                                aria-labelledby="v-pills-hotdogs-tab">
+                                <hr>
+                                <h3><i class="fas fa-hotdog"></i> Hot-Dogs</h3>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                        <p>Ven y prueba nuestra variedad e Hot-Dogs de 20cm, cada uno con su sabor unico.</p>                                       
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                        <img src="./img/logo.png" alt="Las Canastitas" width="100%" height="100%">
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                <h5>Jumbo</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                                                <p>Hot-dog de 20 cm de salchicha tipo viena con cebolla caramelizada y chiles habaneros en rodajas.</p>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ 35.00 MXN</strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                        <img src="./img/logo.png" alt="Las Canastitas" width="100%" height="100%">
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                <h5>Con Queso</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                                                <p>Hot-dog de 20 cm de salchicha tipo viena con cebolla caramelizada, chiles habaneros en rodajas y una capa de quesillo derretido encima.</p>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ 50.00 MXN</strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                        <img src="./img/comida/hdHawaiano.jpg" alt="Las Canastitas" width="100%" height="100%">
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                <h5>Hawaiano</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                                                <p>Hot-dog de 20 cm de salchicha tipo viena con jamón y tocino dorados en trozos, pedazos de piña y quesillo.</p>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ 55.00 MXN</strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                        <img src="./img/comida/hdGuacamole.jpg" alt="Las Canastitas" width="100%" height="100%">
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                <h5>Guacamole</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                                                <p>Hot-dog de 20 cm de salchicha tipo viena con con guacamole recién hecho, cebolla y jitomate.</p>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ 60.00 MXN</strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                        <img src="./img/comida/hdPepinillo.jpg" alt="Las Canastitas" width="100%" height="100%">
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                <h5>Pepinillo</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                                                <p>Hot-dog de 20 cm de salchicha tipo viena con tocino, chiles en rodaja y pepinillos.</p>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ 50.00 MXN</strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                        <img src="./img/comida/hdNacho.jpg" alt="Las Canastitas" width="100%" height="100%">
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                <h5>Nacho</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                                                <p>Hot-dog de 20 cm de salchicha tipo viena con carne molida y queso amarillo de nachos.</p>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ 55.00 MXN</strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                        <img src="./img/comida/hdBurguesa.jpg" alt="Las Canastitas" width="100%" height="100%">
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                <h5>Burguesa</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                                                <p>Hot-dog de 20 cm con una salchicha hecha con carne de hamburguesa de res rellena de queso, chile, cebolla y jitomate.</p>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ 60.00 MXN</strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-papas" role="tabpanel"
+                                aria-labelledby="v-pills-papas-tab">
+                                <hr>
+                                <h3>Papas</h3>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                        <p>Acompaña tus alitas, boneles, hot-dogs o hamburguesas con algunas de nuestras variedades de papas.</p>                                       
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                                        <p>Puedes disfrutar de una ricas papas a la francesa bien doraditas con sal.</p>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">                                      
+                                        <img src="./img/comida/papaFrancesa.jpg" width="100%" height="100%">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">                                      
+                                        <img src="./img/comida/papaGajo.jpg" width="100%" height="100%">
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                                        <p>O puedes degustar unas de nuestras papas gajo en sus dos presentaciones: Gajo natural o Gajo sazonadas.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                <h5>Orden chica</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                                                <p>150 g de papas doraditas servidas con queso y salsa catsup.</p>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ 30.00 MXN</strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                <h5>Orden grande</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                                                <p>250 g de papas doraditas servidas con queso y salsa catsup.</p>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ 45.00 MXN</strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <h3>Snacks</h3>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                        <p>También puedes probar nuestra variedad de snacks para acompañar tu comida.</p>                                       
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                        <img src="./img/comida/nachosCarne.jpg" alt="Las Canastitas" width="100%" height="100%">
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                        <h5>Nachos con Carne</h5>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"><strong>$ 60.00 MXN</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                        <img src="./img/comida/nachosGuacamole.jpg" alt="Las Canastitas" width="100%" height="100%">
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                        <h5>Nachos con Guacamole</h5>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"><strong>$ 70.00 MXN</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                        <img src="./img/comida/dedos.jpg" alt="Las Canastitas" width="100%" height="100%">
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                        <h5>Dedos de Queso</h5>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"><strong>$ 65.00 MXN</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                        <img src="./img/comida/nuggets.jpg" alt="Las Canastitas" width="100%" height="100%">
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                        <h5>Nuggets</h5>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"><strong>$ 50.00 MXN</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                        <img src="./img/comida/aros.jpg" alt="Las Canastitas" width="100%" height="100%">
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                        <h5>Aros de Cebolla</h5>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"><strong>$ 50.00 MXN</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                        <img src="./img/comida/botanera.jpg" alt="Las Canastitas" width="100%" height="100%">
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                <h5>Canasta Botanera</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                                                <p>Incluye unas Papas a la Francesa, Papas de Gajo, Papas de Gajo especiales, chicas las 3, unos Nachos con Carne, Dedos de Queso, Aros de Cebolla y Nuggets.</p>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ 300.00 MXN</strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="card-deck">
-                    <div class="card">
-                        <img class="card-img-top" src="img/bebidas.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title"><i class="fas fa-coffee"></i> Bebidas</h5>
-                            <p class="card-text">Una bebida refrescante para acompañar tu bebida no puede faltar.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a href="#" id="bebidasLink" data-toggle="modal" data-target="#bebidasModal">Ver bebidas</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="img/postre.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title"><i class="fas fa-cheese"></i> Postres</h5>
-                            <p class="card-text">Que mejor que algo dulce para terminar una buena comida, prueba
-                                nuestros
-                                postres.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a href="#" id="postresLink" data-toggle="modal" data-target="#postresModal">Ver postres</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="img/combo.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title"><i class="fas fa-box"></i> Combos</h5>
-                            <p class="card-text">¿Vienes acompañado? ¿Quieres tus alitas con papas y una bebida?, dale
-                                un
-                                vistazo a nuestros combos.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a href="#" id="combosLink" data-toggle="modal" data-target="#combosModal">Ver combos</a>
-                        </div>
-                    </div>
-                </div>
-                -->
             </div>
+        
         </section>
 
     </main>
@@ -163,1148 +709,13 @@
                     Propiedad de la página <strong>Las Canastitas</strong> - 2019
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
-                    <a class="nav-link" href="#" id="facturacionLink" data-toggle="modal" data-target="#facturacionModal">Facturación</a>
+                    <a href="#" id="facturacionLink" data-toggle="modal" data-target="#facturacionModal">Facturación</a>
                 </div>
             </div>
         </div>
     </footer>
 
     <!-- Ventanas modales -->
-
-    <div class="modal fade" id="alitasModal" tabindex="-1" role="dialog" aria-labelledby="alitasLink"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
-            <div class="modal-content">
-                <div class="modal-header cabecera-pie">
-                    <h5 class="modal-title" id="alitasModalTitle"><i class="fas fa-drumstick-bite"></i> Alitas</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="hamburguesasModal" tabindex="-1" role="dialog" aria-labelledby="hamburguesasLink"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
-            <div class="modal-content">
-                <div class="modal-header cabecera-pie">
-                    <h5 class="modal-title" id="hamburguesasModalTitle"><i class="fas fa-hamburger"></i> Hamburguesas
-                    </h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="botanasModal" tabindex="-1" role="dialog" aria-labelledby="botanasLink"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
-            <div class="modal-content">
-                <div class="modal-header cabecera-pie">
-                    <h5 class="modal-title" id="botanasModalTitle"><i class="fas fa-cookie"></i> Botanas</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="bebidasModal" tabindex="-1" role="dialog" aria-labelledby="bebidasLink"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
-            <div class="modal-content">
-                <div class="modal-header cabecera-pie">
-                    <h5 class="modal-title" id="bebidasModalTitle"><i class="fas fa-coffee"></i> Bebidas</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="postresModal" tabindex="-1" role="dialog" aria-labelledby="postresLink"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
-            <div class="modal-content">
-                <div class="modal-header cabecera-pie">
-                    <h5 class="modal-title" id="postresModalTitle"><i class="fas fa-cheese"></i> Postres</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="combosModal" tabindex="-1" role="dialog" aria-labelledby="combosLink"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
-            <div class="modal-content">
-                <div class="modal-header cabecera-pie">
-                    <h5 class="modal-title" id="combosModalTitle"><i class="fas fa-box"></i> Combos</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                        <h5>NOMBRE</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                                        <p>DESCRIPCIÓN...</p>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"><strong>$ X.XX
-                                            MXN</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <div class="modal fade" id="facturacionModal" tabindex="-1" role="dialog" aria-labelledby="facturacionLink"
         aria-hidden="true">
@@ -1320,7 +731,7 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
+                                <img src="./img/logo.png" alt="Las Canastitas">
                             </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
                                 Para facturación enviar datos fiscales, uso del CFDI y copia del ticket legible a <a
@@ -1348,7 +759,7 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <img src="img/logo.png" alt="Las Canastitas">
+                                <img src="./img/logo.png" alt="Las Canastitas">
                             </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
                                 <p>Página de caracter informativo respecto a menú, precios, horarios y ubicación de
